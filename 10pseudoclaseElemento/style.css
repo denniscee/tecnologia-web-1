@@ -1,0 +1,31 @@
+/* dar espacio */
+.main__nav--item{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+/* ordena en filas */
+.main__nav--item{
+    display: inline-block;
+}
+/* color de las letras y color de el contorno */
+.main__nav--item a{
+    color: black;
+    /* background-color: blue; */
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* sirve para que cambie de color al pasar el puntero */
+.main__nav--item a:hover{
+    color: red;
+    font-size: 20px;
+}
+/* sirve para cambiar de color al seleccionar */
+.main__nav--item a:active{
+    color: green;
+}
+/* para hacer un espacio o poner un item entre las cajas */
+.main__nav--item a::after{
+    content: " |";
+}
